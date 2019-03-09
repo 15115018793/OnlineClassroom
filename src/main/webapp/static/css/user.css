@@ -1,0 +1,59 @@
+.search_titie_bar{
+	height: 39px;
+	background: #031F8D;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #fff;
+	line-height: 39px;
+	padding-left: 20px;
+	font-size: 16pxs;
+}
+#search_form{
+	margin-top: 10px;
+	
+}
+.seach_btn{
+	text-align: right;
+	margin-top: 10px;
+	padding-right: 10px;
+}
+.seach_btn > button {
+	margin: 6px;
+	
+}
+.seach_btn > button:hover,
+#pager > div > button:hover{
+	color: white;
+	background-color: #031F8D ;
+	
+}
+#content_table{
+	margin-top: 15px;
+	padding-right: 10px;
+	
+}
+#content_table > div > table tr:first-child{
+		background-color: #031F8D ;
+		color: #FFFFFF;
+	
+}
+#content_table > div > table tr:first-child > td{
+	border:  1px solid #031F8D;
+	
+}
+#pager{
+	padding-right: 10px;
+	margin-bottom: 20px;
+	
+}
+#pager > p{
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+	
+}
+#pager > p > span{
+	font-weight: bolder;
+	color: #031F8D;
+	font-size:15px ;
+}

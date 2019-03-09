@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wl.dao.RoleDao">
+
+
+    <!-- select语句 -->
+    <select id="selectRoleByID" parameterType="int" resultType="Role">
+        select * from t_role where t_role.id = #{id}
+    </select>
+ 
+    
+    <select id="selectRoles" resultType="Role">
+        select * from t_role
+    </select>
+    <insert id="addRole" parameterType="Role" 
+        useGeneratedKeys="true" keyProperty="id"> 
+        insert into t_role(name,code)  
+             values(#{name},#{code})  
+    </insert>
+    
+    <update id="updateRole" parameterType="Role" >
+        update t_role set name=#{name},code=#{code} where id=#{id}
+    </update>
+    
+    <delete id="deleteRole" parameterType="int">
+        delete from t_role where id=#{id}
+    </delete>
+
+
+</mapper>

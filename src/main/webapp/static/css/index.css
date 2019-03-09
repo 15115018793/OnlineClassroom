@@ -1,0 +1,100 @@
+.navbar-brand {
+	background: url(../image/tengxun.png) no-repeat;
+	background-size: 35px 35px;
+	background-position: 0px 7px;
+	padding-left: 40px;
+	font-size: 22px;
+	color: #333 !important;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.navbar-brand:hover {
+	color: #333;
+}
+
+.input-group {
+	width: 200px;
+}
+
+#carousel-example-generic {
+	margin-top: -20px;
+}
+
+.carousel-inner>div.item {
+	height: 300px;
+	background-position: center center !important;
+	
+}
+.page-header{
+	border-bottom: 4px #DDDDDD solid;
+
+}
+#courelist > .page-header >h3 {
+	position: relative;
+	
+}
+#courelist > .page-header >h3 > a{
+	color: #666;
+	font-weight: 100;
+	position: absolute;
+	right: 0px;
+	font-size: 17px;
+	line-height: 26px;
+}
+#courelist > .page-header >h3 > a:hover{
+	text-decoration: none;
+	}
+.thumbnail > .caption >h3{
+	margin-top: 5px;
+	font-size: 15px ;
+}
+.thumbnail > .caption > h3 >a{
+	color: #333;
+	
+}
+.thumbnail > .caption >h3.cource_price{
+	
+	position: relative;
+	margin-top: 20px;
+	color: red;
+	
+}
+.thumbnail > .caption > h3 > .cource_groud {
+	position: absolute;
+	right: 0;
+}
+.thumbnail {
+	padding: 10px;
+	border:  1px #fff solid;
+	border-radius: 0;
+}
+.thumbnail:hover{
+	box-shadow: .5px .5px 1px #ddd;
+	border: 1px #ddd solid;
+	outline: 1px;
+}
+.footer {
+	margin-top: 50px;
+	background-color: #666;
+	color: #999;
+	padding: 30px 0px 30px 0;
+}
+.footer > div.footericon {
+	text-align: center;
+	
+}
+.footer > div.footericon > span >img{
+	height="200" width="200" 	
+}
+.footer > .p1{
+	text-align: center;
+}
+.footer > .cer{
+	text-align: center;
+}
+.footer > .cer > a{
+	
+	color: #333;
+	
+}

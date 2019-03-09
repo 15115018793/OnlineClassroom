@@ -1,0 +1,89 @@
+
+.navbar-brand{
+	color: #eee !important;
+	
+}
+#slib_bar{
+
+	height: 500px;
+	margin-top: -20px;
+	float: left;
+}
+.slidebar-title{
+	height: 55px;
+	padding-left:10px ;
+	position: relative;
+	width: 220px;
+}
+.slidebar-title > p{
+	margin: 0px;
+	position: absolute;
+	bottom: 0px;
+	border-bottom: 1px #ccc solid;
+	width: 210px;
+	padding-bottom: 5px;
+}
+.slidebar-title > p > span:first-child{
+	font-size: 16px;
+	
+}
+.slidebar-title > p > span:last-child{
+	font-size: 11px;
+	
+}
+.slidebar-content{
+	width: 220px;
+	height: 100%;
+	margin-top: 20px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.slidebar-content > a{
+/*	color: #333333;	*/
+	text-decoration: none;
+	margin: 0px 0px 0px 20px;
+	display: block;
+	height: 30px;
+	
+}
+.slidebar-content > ul{
+	
+	
+	
+}
+.slidebar-content > ul >li{
+	
+	list-style: none;
+	padding-top: 10px;
+}
+.slidebar-content > ul >li > a {
+	text-decoration: none;
+	color: #333;
+	
+	
+} 
+.slidebar-content > ul >li > a:hover{
+	color: #314ab7;
+	
+}
+
+#path_nav{
+	margin-left:240px ;
+	border-bottom: 1px #ccc solid ;
+	
+}
+.breadcrumb{
+	background: #FFFFFF !important;
+	margin: 0px;
+	
+}
+#iframe-content{
+	z-index: -1;
+	padding-left: 230px;
+	padding-top: 140px;
+}
+.navactive{
+	color: #0d50Ea !important;
+	font-weight: bolder !important;
+	
+}
